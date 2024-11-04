@@ -1,0 +1,9 @@
+@use "@sass/abstracts" as *;
+
+.select {
+  @include common-input-style;
+
+  &__option {
+    background: $douglas-turquoise;
+  }
+}

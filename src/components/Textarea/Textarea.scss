@@ -1,0 +1,15 @@
+@use "@sass/abstracts" as *;
+
+textarea {
+  @include transparent-box;
+
+  width: 100%;
+
+  font-size: 1rem;
+  margin: 0 0.2rem;
+  margin-bottom: 0.5rem;
+
+  &:hover {
+    @include hover-shadow-for-transparent;
+  }
+}

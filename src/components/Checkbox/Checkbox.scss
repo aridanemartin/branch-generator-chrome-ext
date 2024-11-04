@@ -1,0 +1,17 @@
+@use "@sass/abstracts" as *;
+
+.checkbox {
+  display: flex;
+  align-items: center;
+
+  input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    accent-color: black;
+    margin-right: 0.5rem;
+  }
+
+  &__label {
+    display: none;
+  }
+}

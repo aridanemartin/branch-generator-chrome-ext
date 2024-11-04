@@ -1,0 +1,24 @@
+@use "@sass/abstracts" as *;
+
+.randomWordSelector {
+  display: grid;
+  grid-template-columns: 70% 30%;
+
+  &__select {
+    @include transparent-box;
+    @include hover-shadow-for-transparent;
+    padding: 0.5rem 1rem;
+    margin: 0 0.2rem;
+    margin-bottom: 0.5rem;
+    color: black;
+    font-size: 1rem;
+  }
+
+  &__option {
+    background: $douglas-turquoise;
+  }
+
+  &__button {
+    @include common-button-style;
+  }
+}
