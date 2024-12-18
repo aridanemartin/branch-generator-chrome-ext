@@ -1,50 +1,14 @@
-# React + TypeScript + Vite
+## Boost Your Productivity with Git Branch Generator! 🥬🥬🥬
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![gitBranchGeneratorLogo (1)](https://github.com/user-attachments/assets/d0b8c9b7-f1c7-4551-99fd-c455315d908c)
 
-Currently, two official plugins are available:
+Supercharge your Jira workflow with Git Branch Generator Chrome extension, designed to quickly create and manage branches while seamlessly scraping essential data from Jira/Asana. Align with your team and follow project conventions effortlessly, ensuring consistent branch naming and structure. With an intuitive interface and best practices built-in, you can generate branches in seconds, keeping your project organized and up to date. Always have your branch setup ready, so you can stay productive and synchronized with your team without delay. Perfect for developers and project managers looking for fast, efficient branch creation that integrates smoothly with team workflows.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔑 Key Features:
 
-## Expanding the ESLint configuration
+🤖 Automated Task Integration: Seamlessly scrape task data from Jira and Asana to generate meaningful branch names.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+🧑‍🤝‍🧑 Customizable Team Conventions: Store your Git naming conventions within the extension for consistent branch creation.
 
-- Configure the top-level `parserOptions` property like this:
+🖥️ Task Manager Integration: Compatible with Jira and Asana, two of the most popular project management tools.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
